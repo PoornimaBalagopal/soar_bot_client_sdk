@@ -11,7 +11,7 @@
   Bots.init({ appId: '5be41887639bca0022071884',
         businessName: 'Oracle Digital Assistant',
         introductionText: 'Mobile Cloud Enterprise',
-        businessIconUrl: 'https://botclientapp.herokuapp.com/images/header_image.png',
+        businessIconUrl: '/images/header_image.png',
        // buttonIconUrl: 'https://res.cloudinary.com/xxxxx/image/upload/v1523532639/MasterBotWebWidget/Profile_Dialog1.png',
         //backgroundImageUrl: '/images/oracle-logo.png',
         customColors: {
