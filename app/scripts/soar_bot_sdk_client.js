@@ -19,6 +19,6 @@
 			conversationColor: '8873EC'
         },
         customText: {
-            headerText:'EasyAdopt'
+            headerText:'Easy Adopt'
         }
   });
