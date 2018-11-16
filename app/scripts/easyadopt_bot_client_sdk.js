@@ -8,17 +8,18 @@
   }
   Bots.destroy();
 
-  Bots.init({ appId: '5be41887639bca0022071884',
+  Bots.init({ appId: '5beee04588adec0022306582',
         businessName: 'Oracle Digital Assistant',
+		fixedIntroPane: true,
         introductionText: 'Mobile Cloud Enterprise',
-        businessIconUrl: 'https://soarbotsdkclient.herokuapp.com/images/header_image.png',
-       // buttonIconUrl: 'https://res.cloudinary.com/xxxxx/image/upload/v1523532639/MasterBotWebWidget/Profile_Dialog1.png',
-        //backgroundImageUrl: '/images/oracle-logo.png',
+        businessIconUrl: 'https://soarbotsdkclient.herokuapp.com/images/botFace.svg',
         customColors: {
-            brandColor: '7B63F5',
-			conversationColor: '8873EC'
+              brandColor: '65758e',
+			  conversationColor: '65758e',
+              actionColor: '65758e',
         },
         customText: {
-            headerText:'Easy Adopt'
+            headerText:'Easy Adopt',
+			introductionText: 'Oracle Digital Assistant for SaaS'
         }
   });
